@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Track</title>
 
+  <!-- Fav -->
+  <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +40,7 @@
               <li> <a href="#">Contacts</a></li>
             </ul>
           </nav>
-          <a class="header__tel" href="tel:+800 490 4545">
+          <a class="header__tel"href="tel:+800 490 4545">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M18.2461 15.8765C17.462 15.1024 16.4832 15.1024 15.7041 15.8765C15.1098 16.4658 14.5155 17.0551 13.9312 17.6544C13.7713 17.8192 13.6365 17.8542 13.4417 17.7443C13.0572 17.5346 12.6477 17.3648 12.2781 17.135C10.5551 16.0513 9.11178 14.6579 7.83327 13.0897C7.19901 12.3107 6.63467 11.4766 6.24013 10.5377C6.16023 10.3479 6.17521 10.2231 6.33003 10.0683C6.92433 9.49394 7.50366 8.90463 8.08798 8.31531C8.90203 7.49627 8.90203 6.53739 8.08298 5.71335C7.61853 5.2439 7.15407 4.78443 6.68961 4.31498C6.21017 3.83554 5.73572 3.3511 5.25129 2.87666C4.4672 2.11255 3.48834 2.11255 2.70925 2.88165C2.10995 3.47096 1.53562 4.07526 0.926332 4.65458C0.361991 5.18896 0.0773229 5.8432 0.0173928 6.60731C-0.0774965 7.85085 0.227148 9.02449 0.656647 10.1682C1.53562 12.5354 2.87406 14.6379 4.49717 16.5657C6.68961 19.1726 9.30656 21.2352 12.368 22.7235C13.7464 23.3927 15.1747 23.9071 16.7279 23.992C17.7966 24.052 18.7256 23.7823 19.4697 22.9482C19.9791 22.3789 20.5534 21.8595 21.0928 21.3151C21.8919 20.5061 21.8969 19.5272 21.1028 18.7282C20.1539 17.7743 19.2 16.8254 18.2461 15.8765Z" />
@@ -57,8 +59,48 @@
     </header>
 
     <main>
-      content
-      <h1>content</h1>
+      <!-- Order  -->
+      <section class="order">
+        <div class="container">
+          <div class="order__text">
+          <h1 class="h1-style">Order a tow truck</h1>
+          <p>Please fill out the form below. You can also call us anytime.</p>
+        </div>
+          <div class="order__wrapper">
+            <div class="order__img">
+              <img src="img/Order.jpg" alt="Order">
+            </div>
+            <div class="order__box">
+            <div class="order__content">
+              <form action="#">
+                <input class="form__input" type="text" placeholder="What`s your name?" required>
+                <input class="form__input input__tel" type="tel" placeholder="What`s your phone number?" required>
+                <div class="order__checkbox">
+                  <label>
+                    <input class="form__checkbox" type="checkbox" name="Car">
+                    <span class="custom__checkbox"></span>
+                    Tow crane manipulator 5 tons
+                  </label>
+                  <label>
+                    <input class="form__checkbox" type="checkbox" name="Car">
+                    <span class="custom__checkbox"></span>
+                    Hydraulic platform tow truck 5 tons
+                  </label>
+                  <label>
+                    <input class="form__checkbox" type="checkbox" name="Car">
+                    <span class="custom__checkbox"></span>
+                    Crane manipulator 3.5 tons
+                  </label>
+                </div>
+                <button class="order__btn btn" type="submit">Order a Tow Truck</button>
+                <p>Your data will not be transferred to third parties.</p>
+              </form>
+            </div>
+          </div>
+          </div>
+        </div>
+        <img class="welcome__img" src="img/Welcome-Vector.png" alt="Order">
+      </section>
     </main>
 
     <!-- Footer  -->
