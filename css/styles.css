@@ -226,10 +226,6 @@ p:hover {
 }
 
 @media (max-width:1440px) {
-
-    .header {
-        padding: 15px 0;;
-    }
     
     .header__menu li {
         margin-right: 18px;
@@ -241,6 +237,10 @@ p:hover {
 }
 
 @media (max-width:1024px) {
+
+    .header {
+        padding: 15px 0;;
+    }
 
     .header__burger {
         display: block;
@@ -497,7 +497,7 @@ p:hover {
 
 /* Services */
 .services {
-    padding-bottom: 131px;
+    padding-bottom: 25px;
 }
 
 .services__wrapper {
@@ -567,7 +567,7 @@ p:hover {
 @media(max-width:1024px) {
 
     .services {
-        padding-bottom: 100px;
+        padding-bottom: 24px;
     }
 
     .services__wrapper {
@@ -618,7 +618,7 @@ p:hover {
 @media(max-width:767px) {
 
     .services {
-        padding-bottom: 70px;
+        padding-bottom: 0px;
     }
 
     .services__card {
@@ -637,8 +637,11 @@ p:hover {
 
 /* Asistance  */
 .asistance {
+    padding-top: 106px;
+}
+
+.asistance__wrapper {
     padding: 130px 0;
-    margin-bottom: 130px ;
     background-image: url('../img/asistance.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -692,8 +695,11 @@ p:hover {
 @media (max-width:1024px) {
 
     .asistance {
+        padding-top: 76px;
+    }
+
+    .asistance__wrapper {
         padding: 100px 0;
-        margin-bottom: 100px ;
     }
 
     .asistance__tel {
@@ -704,8 +710,12 @@ p:hover {
 @media (max-width:767px) {
 
     .asistance {
+        padding-top: 70px;
+        margin-bottom: -30px
+    }
+
+    .asistance__wrapper {
         padding: 70px 0;
-        margin-bottom: 70px;
     }
 
     .asistance__tel {
@@ -721,6 +731,13 @@ p:hover {
 
     .asistance__content p {
         margin-bottom: 50px;  
+    }
+}
+
+@media (max-width:530px) {
+
+    .asistance {
+        padding-top: 62px;
     }
 }
 
@@ -746,7 +763,7 @@ p:hover {
 
 /* Tracks  */
 .tracks {
-    padding-bottom: 130px;
+    padding-top: 130px;
 }
 
 .tracks__content h2 {
@@ -800,7 +817,7 @@ p:hover {
 @media(max-width:1024px) {
 
     .tracks {
-        padding-bottom: 100px;
+        padding-top: 100px;
     }
 
     .tracks__wrapper {
@@ -827,7 +844,7 @@ p:hover {
 @media(max-width:767px) {
 
     .tracks {
-        padding-bottom: 70px;
+        margin-bottom: -30px;
     }
 
     .tracks__card {
@@ -849,13 +866,6 @@ p:hover {
     }
 }
 
-@media(max-width:650px) {
-
-    .tracks {
-        padding-bottom: 50px;
-    }
-}
-
 @media(max-width:425px) {
 
     .tracks__item {
@@ -865,7 +875,7 @@ p:hover {
 
 /* Gallery */
 .gallery {
-    padding-bottom: 95px;
+    padding-top: 130px;
 }
 .gallery h2 {
     color: #FFFFFF;
@@ -876,13 +886,13 @@ p:hover {
 .gallery__wrapper {
     display:flex ;
     flex-wrap: wrap;
-    margin: 0 -20px ;
+    margin: 0 -20px -40px;
 }
 
 .gallery__img {
     width: 25%;
-    padding: 0 20px  ;
-    margin-bottom: 35px;
+    padding: 0 20px;
+    margin-bottom: 40px;
     display: flex;
 }
 
@@ -893,7 +903,7 @@ p:hover {
 @media(max-width:1024px) {
 
     .gallery {
-        padding-bottom: 65px;
+        padding-top: 100px;
     }
 
     .gallery__img {
@@ -907,7 +917,7 @@ p:hover {
     }
 
     .gallery__wrapper {
-        margin: 0 -10px;
+        margin: 0 -10px -20px;
     }
     
 }
@@ -915,7 +925,7 @@ p:hover {
 @media(max-width:767px) {
 
     .gallery {
-        padding-bottom: 55px;
+        margin-bottom: -30px;
     }
 }
 
@@ -937,7 +947,8 @@ p:hover {
 
 /* Faq */
 .faq {
-    padding-bottom: 252px;
+    padding-top: 130px;
+    padding-bottom: 122px;
 }
 
 .faq h2 {
@@ -979,7 +990,8 @@ p:hover {
 @media(max-width:1024px) {
 
     .faq {
-        padding-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 0px;
     }
 
     .faq__item:not(:last-child) {
@@ -998,7 +1010,7 @@ p:hover {
 @media(max-width:767px) {
 
     .faq {
-        padding-bottom: 70px ;
+        margin-bottom: -30px;
     }
 }
 
@@ -1022,6 +1034,7 @@ p:hover {
 /* Testimonials */
 .testimonials {
     padding-bottom: 131px;
+    padding-top: 130px;
 }
 
 .testimonials h2 {
@@ -1135,6 +1148,7 @@ p:hover {
 @media(max-width:1024px) {
 
     .testimonials {
+        padding-top: 100px;
         padding-bottom: 100px;
     }
 
