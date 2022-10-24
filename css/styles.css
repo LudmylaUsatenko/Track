@@ -1390,12 +1390,8 @@ p:hover {
 
 .footer__map {
     width: 50%;
-    padding-left: 20px;
-}
-
-.footer__map iframe {
-    width: 100%;
     height: 353px;
+    padding-left: 20px;
 }
 
 @media(max-width:1024px) {
@@ -1422,7 +1418,7 @@ p:hover {
         margin-bottom: 35px;
     }
 
-    .footer__map iframe {
+    .footer__map {
         height: 308px;
     }
 }
@@ -1440,6 +1436,7 @@ p:hover {
 
     .footer__map {
         width: 100%;
+        height: 250px;
         padding-left: 0px;
     }
 
@@ -1449,10 +1446,6 @@ p:hover {
 
     .footer__tel {
         margin-bottom: 15px;
-    }
-
-    .footer__map iframe {
-        height: 250px;
     }
 }
 
