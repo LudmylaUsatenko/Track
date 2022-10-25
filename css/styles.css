@@ -384,7 +384,7 @@ p:hover {
 /* Welcome  */
 .welcome {
     background: #FED231;
-    padding: 111px 0 301px;
+    padding: 141px 0 301px;
     position: relative;
     margin-top: -1px;
 }
@@ -423,7 +423,7 @@ p:hover {
 }
 
 .welcome p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 23px;
     color: #000000;
     margin-bottom: 65px;
@@ -875,7 +875,7 @@ p:hover {
 
 /* Gallery */
 .gallery {
-    padding-top: 130px;
+    padding-top: 170px;
 }
 .gallery h2 {
     color: #FFFFFF;
@@ -1453,7 +1453,7 @@ p:hover {
 
 .order {
     background: #FED231;
-    padding: 110px 0 0;
+    padding: 140px 0 0;
     position: relative;
     margin-bottom: 174px;
 }
@@ -1478,8 +1478,8 @@ p:hover {
     display: flex;
     position: relative;
     z-index: 1;
-    top: 182px;
-    margin-top: -182px;
+    top: 268px;
+    margin-top: -268px;
 }
 
 .order__img {
